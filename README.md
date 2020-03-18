@@ -18,6 +18,8 @@ JS API:
 ##v0.2
 ###增加註解與小改動
 
+說明文件更新
+
 新增index.js
 -實現HTML與JS完全分離
 Game:
