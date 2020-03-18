@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <svg id="game" width="800" height="800" >
+
+  </svg>
+<script>
+
+var svg   = document.getElementById("game");
+var svgNS = svg.namespaceURI;
+
+var rect = document.createElementNS(svg,'rect');
+rect.setAttribute('x',5);
+rect.setAttribute('y',5);
+rect.setAttribute('width',500);
+rect.setAttribute('height',500);
+rect.setAttribute('fill','#95B3D7');
+svg.appendChild(rect);
+//document.body.appendChild(svg);
+
+var h=document.createElement('a');
+var t=document.createTextNode('Hello World');
+h.appendChild(t);
+document.body.appendChild(h);
+
+
+</script>
+
+</body>
+</html>
